@@ -1,0 +1,11 @@
+{
+  "name": "Imagine · Dream · See — Kids 3D Design & Maker Studio",
+  "description": "Kids interactive 3D design, voice learning, living meadow growth, and maker dev studio with up to four customizable project tabs.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

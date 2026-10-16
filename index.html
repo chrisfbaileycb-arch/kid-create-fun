@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Imagine · Dream · See — Kids 3D Design &amp; Maker Studio</title>
+  <meta name="description" content="Kids interactive 3D design, voice learning, living meadow growth, and maker dev studio with up to four customizable project tabs." />
+  <meta property="og:title" content="Imagine · Dream · See — Kids 3D Design &amp; Maker Studio" />
+  <meta property="og:description" content="Kids interactive 3D design, voice learning, living meadow growth, and maker dev studio with up to four customizable project tabs." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;600;700&family=Google+Sans+Text:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <nav id="page-nav" aria-label="Simulation Switcher">
+    <a href="./index.html" class="nav-pill active">✨ Mr. M Dream Mascot</a>
+    <a href="./grass.html" class="nav-pill" hidden style="display: none;" aria-hidden="true">GPU Grass Painter</a>
+  </nav>
+  <nav id="scene-nav" class="scene-nav-bar" aria-label="Scene Selection"></nav>
+  <div id="canvas-container" aria-label="Interactive 3D GPU Fur Simulation"></div>
+  <aside id="ui-root" aria-label="Fur and Lighting Controls"></aside>
+  <div id="hud-hint" aria-live="polite"></div>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
